@@ -35,7 +35,7 @@ func main() {
 Person Struct pada variabel bytes diinisialisasi atribut firstname “John” dan lastname “Dow”. Kemudian bytes diserialisasikan kedalam bentuk JSON dan diprint dengan keluaran Person struct dalam JSON
 
 ### Screenshot
-![alt screenshot6][1]
+![alt screenshot1][1]
 
 ## JSON Unmarshal
 ### Source Code
@@ -74,11 +74,11 @@ func main() {
 - Print variable p
 
 ### Screenshot
-![alt screenshot6][2]
+![alt screenshot2][2]
 
 ## GRPC
 ### 1. Output
-![alt screenshot6][3]
+![alt screenshot3][3]
 ### 2. Cara Kerja & Diagram FSM
 ### 3. Analisis Perbedaan dari Protocol Buffer dan Flatbuffer
 - Protocol Buffer memisahkan representasi in-memory dengan wire protocol.
@@ -89,6 +89,6 @@ func main() {
 - Flatbuffer melakukan serialisasi pada saat pembuatan objek pada representasi in-memory.
 - Pada saat flatbuffer dikembalikan, yang ditampilkan hanya pointer
 
-[1]: screenshot/marhsal.png
+[1]: screenshot/marshal.png
 [2]: screenshot/unmarshal.png
 [3]: screenshot/grpc.png
