@@ -75,6 +75,14 @@ func main() {
 
 ### Screenshot
 ![alt screenshot2][2]
+Client
+- Memanggil function ke server
+
+Server
+- Saat server dijalankan, maka server dalam keaadan listen
+- Server menerima message dari client lalu mengirim status
+- Server menunggu client mengirim function
+- Jika tidak ada request client, server menutup koneksi
 
 ## GRPC
 ### 1. Output
