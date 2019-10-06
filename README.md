@@ -80,15 +80,19 @@ func main() {
 ### 1. Output
 ![alt screenshot3][3]
 ### 2. Cara Kerja & Diagram FSM
+![alt fsm][4]
 ### 3. Analisis Perbedaan dari Protocol Buffer dan Flatbuffer
+Protobuf
 - Protocol Buffer memisahkan representasi in-memory dengan wire protocol.
 - Protobuf merupakan metode untuk serialisasi data terstruktur.
 - Saat objek protobuf dikembalikan, dilakukan parsing dan serialisasi kembali.
 
+Flatbuffer
 - Flatbuffer tidak memisahkan representasi in-memory dengan wire protocol.
 - Flatbuffer melakukan serialisasi pada saat pembuatan objek pada representasi in-memory.
 - Pada saat flatbuffer dikembalikan, yang ditampilkan hanya pointer
 
 [1]: screenshot/marshal.png
 [2]: screenshot/unmarshal.png
-[3]: screenshot/grpc.png
+[4]: screenshot/grpc.png
+[3]: screenshot/fsm.png
